@@ -98,7 +98,9 @@ async def play_song(ctx, url):
         'format': 'bestaudio',
         'noplaylist': 'True',
         'quiet': True,
-        'extract_flat': 'True'
+        'extract_flat': 'True',
+        'username': 'oauth2',
+        'password': ''
     }
 
     # Extract audio URL using yt-dlp
